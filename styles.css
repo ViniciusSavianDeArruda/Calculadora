@@ -92,3 +92,16 @@ button.operator:hover {
     align-items: stretch; /* garante que os botões tenham largura total */
     /* removi justify-content: space-between para evitar espaçamento estranho */
 }
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
