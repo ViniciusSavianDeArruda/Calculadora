@@ -65,7 +65,6 @@ button.operator {
     background-color: #e41b00;
     color: #fff;
     width: 100%; 
-       /* para ocupar toda a largura da coluna */
 }
 
 button.operator:hover {
@@ -89,8 +88,7 @@ button.operator:hover {
     flex-direction: column;
     gap: 10px;
     flex: 1;
-    align-items: stretch; /* garante que os botões tenham largura total */
-    /* removi justify-content: space-between para evitar espaçamento estranho */
+    align-items: stretch; 
 }
 
 footer {
@@ -105,3 +103,5 @@ footer {
 footer p {
     margin: 0;
 }
+
+
